@@ -73,6 +73,77 @@
       --left-percent: 35;
       --scale: 3.2; /* Custom scale for this element */
     }
+
+    #soundbar {
+      --top-percent: 71.7;
+      --left-percent: 39;
+      --scale: 2.3; /* Custom scale for this element */
+    }
+
+    #play1_L {
+      --top-percent: 10;
+      --left-percent: 5;
+      --scale: .4; /* Custom scale for this element */
+    }
+
+    #play1_R {
+      --top-percent: 10;
+      --left-percent: 90;
+      --scale: .4; /* Custom scale for this element */
+    }
+
+    #appletv {
+      --top-percent: 73.1;
+      --left-percent: 35;
+      --scale: .4; /* Custom scale for this element */
+    }
+
+    #speaker_L {
+      --top-percent: 65.3;
+      --left-percent: 30;
+      --scale: .5; /* Custom scale for this element */
+    }
+
+    #speaker_R {
+      --top-percent: 65.3;
+      --left-percent: 67.5;
+      --scale: .5; /* Custom scale for this element */
+    }
+    #marantz {
+      --top-percent: 81.65;
+      --left-percent: 46;
+      --scale: .9; /* Custom scale for this element */
+    }
+    #lpplayer {
+      --top-percent: 77.8;
+      --left-percent: 46;
+      --scale: .9; /* Custom scale for this element */
+    }
+    #oppo {
+      --top-percent: 84.7;
+      --left-percent: 59.5;
+      --scale: .9; /* Custom scale for this element */
+    }
+    #ps5 {
+      --top-percent: 78.6;
+      --left-percent: 68;
+      --scale: .22; /* Custom scale for this element */
+    }
+    #xbox {
+      --top-percent: 81;
+      --left-percent: 70.5;
+      --scale: .3; /* Custom scale for this element */
+    }
+    #switch {
+      --top-percent: 50;
+      --left-percent: 93;
+      --scale: .5; /* Custom scale for this element */
+    }
+    #ipad {
+      --top-percent: 36;
+      --left-percent: 91.5;
+      --scale: .8; /* Custom scale for this element */
+    }
   </style>
 </head>
 <body>
@@ -97,7 +168,47 @@
     <div class="overlay-div" id="tv">
       <object data="tv.svg" type="image/svg+xml"></object>
     </div>
+    <div class="overlay-div" id="soundbar">
+      <object data="soundbar.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="overlay-div" id="play1_L">
+      <object data="play1.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="overlay-div" id="play1_R">
+      <object data="play1.svg" type="image/svg+xml"></object>
+    </div>
   </div>
+  <div class="overlay-div" id="appletv">
+    <object data="appletv.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="speaker_L">
+    <object data="speaker.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="speaker_R">
+    <object data="speaker.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="marantz">
+    <object data="marantz.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="lpplayer">
+    <object data="lpplayer.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="oppo">
+    <object data="oppo.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="ps5">
+    <object data="ps5.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="xbox">
+    <object data="xbox.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="switch">
+    <object data="switch.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="overlay-div" id="ipad">
+    <object data="ipad.svg" type="image/svg+xml"></object>
+  </div>
+</div>
 
   <script>
     const bgContainer = document.getElementById('bgContainer');
